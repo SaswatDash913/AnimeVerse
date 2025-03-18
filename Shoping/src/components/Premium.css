@@ -1,0 +1,127 @@
+.page
+{
+    COLOR: WHITE
+}
+
+.head
+{
+    position: relative;
+    left: 40%;
+    width: 317px;
+    margin: 20px;
+    color: orange;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.maindiv
+{
+    display: flex
+}
+
+.div1
+{
+    border: 4px solid white;
+    display: grid;
+    align-items: center;
+}
+.p1
+{
+    position: relative;
+    left: 33%;
+    color: orange;
+    font-size: 34px;
+    font-weight: bold;
+    width: 186px;
+}
+.p2
+{
+    position: relative;
+    left: 39%;
+    width: 135px;
+}
+
+.tax1
+{
+    position: relative;
+    left: 44%;
+    font-size: 9px;
+    width:65px;
+}
+.div1b1
+{
+    border: 2px solid white;
+    width: 200px;
+    position: relative;
+    left: 30%;
+    background: orange;
+    
+}
+.div1b1:hover
+{
+    background-color: orange;
+    cursor: pointer; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+    transform: translateY(-3px); 
+}
+.div1b2
+{
+    font-size: 10px
+}
+.text1
+{
+    position: relative;
+    left: 0%;
+}
+
+.p11
+{
+    position: relative;
+    left: 44%;
+    color: orange;
+    font-size: 34px;
+    font-weight: bold;
+    width: 186px;
+}
+
+.div1
+{
+    border: 4px solid white;
+    position: relative;
+    left: 1%;
+    height: 360px;
+    padding: 53px;
+    width: 500px;
+}
+
+.div2
+{
+    border: 4px solid;
+    padding: 20px;
+    position: relative;
+    left: 15px;
+    width: 480px;
+    position: relative;
+    left: 2%;
+
+}
+
+.div32
+{
+    border: 4px solid white;
+    position: relative;
+    left: 3%;
+    height: 399px;
+    width: 450px;
+    padding: 27px
+}
+
+.des
+{
+    font-size: 10px;
+    width: 650px;
+    position: relative;
+    left: 29%;
+    padding: 20px;
+}

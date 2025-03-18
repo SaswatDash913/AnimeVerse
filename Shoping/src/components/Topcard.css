@@ -1,0 +1,20 @@
+.inner-card
+{
+    display: flex;
+    width: 250px;
+    position: absolute;
+    top: 68%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.card-slider
+{
+    margin:30px;
+    
+}
+
+.card-slider:hover {
+    transform: scale(1.1) translateY(-10px); /* Pop-out effect */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+}

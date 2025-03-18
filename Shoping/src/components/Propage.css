@@ -1,0 +1,37 @@
+.item-inner-card
+{
+    display: grid;
+    color: white;
+    height: 1000px; 
+    forced-color-adjust: auto;  
+}
+
+.know-image
+{
+    width: 100%;
+    forced-color-adjust: auto;
+    height:700px;
+}
+
+.know
+{
+    width: 60%;
+    position: relative;
+    bottom: 63%;
+
+}
+.wish
+{
+    border: 2px solid orange;
+    width: 180px;
+    height: 50px;
+    position: relative;
+    left: 75%;
+    bottom: 150%;
+    forced-color-adjust: auto;
+}
+
+.Product-anime-totalpage
+{
+    height:1000px;
+}

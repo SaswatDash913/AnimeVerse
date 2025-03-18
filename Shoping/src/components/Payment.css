@@ -1,0 +1,128 @@
+.pay
+{
+    border: 4px solid white;
+    width: 600px;
+    height: 550px;
+    position: fixed;
+    left: 31%;
+    display: grid;
+    background-color: grey;
+    top: 20%;
+}
+.packname
+{
+    color: black;
+    height: 55px;
+    border: 2px solid black;
+    background-color: darkgrey;
+}
+.UPIP
+{
+    border: 2px solid black;
+    position: relative;
+    bottom: 0%;
+    color: black;
+    height: 50px;
+    background-color: darkgray;
+}
+.Cred
+{
+    border: 2px solid black;
+    position: relative;
+    bottom: 0%;
+    display: grid;
+    padding: 8px;
+    width: 591px;
+    background-color: darkgrey;
+}
+
+.disclam
+{
+    position: relative;
+    color: orange;
+    top: 12%;
+    text-align: end;
+    font-size: 10px;
+}
+.button-payment
+{
+    border: 2px solid orange;
+    position: relative;
+    bottom: 239%;
+    color: black;
+    width: 105px;
+    height: 28px;
+    left: 72%;
+    top: 0%;
+    background: orange;
+}
+
+.Upi-button
+{
+    width: 587px;
+    height: 46px;
+}
+.names
+{
+    color: black;
+    position: relative;
+    left: 36%;
+    width: 173px;
+}
+
+.cardnum
+{
+    width: 571px;
+    height: 30px;
+    border: 2px solid black;
+}
+.cred2
+{
+    display: flex;
+    justify-content: space-between;
+    height: 27px;
+    position: relative;
+    bottom: 27%;
+}
+
+.expmon
+{
+    border: 2px solid black;
+}
+.expye
+{
+    border: 2px solid black;
+}
+.cv
+{
+    border: 2px solid black;
+}
+
+.codes
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 60%;
+    height: 26px;
+}
+.post
+{
+    border: 2px solid black;
+    position: relative;
+    right: 2%;
+    top: 9%;
+}
+
+.Tid 
+{
+    border: 2px solid black;
+    position: relative;
+    top: 9%;
+    left: 2%;
+}
+
+.payment-total-page
+{
+    height:1000px;
+}

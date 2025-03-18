@@ -1,0 +1,87 @@
+.flexing
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainSignup
+{
+    color: orange;
+    display: grid;
+    align-items: center;
+    justify-content: flex-start;
+    width: 400px;
+    height: 350px;
+    border: 5px solid orange;
+    position: absolute;
+    top: 25%;
+    z-index:2;
+    backdrop-filter: blur(80%); 
+    background-color:black;
+}
+
+.user1
+{
+    width: 215%;
+    height: 40px;
+}
+
+.inp1
+{
+    width: 85%;
+    height: 100%;
+    border-radius: 13px;
+    position: relative;
+    top: 0%;
+    margin: 10px;
+}
+
+.pass1
+{
+    width: 215%;
+    height: 40px;
+
+}
+
+.imp1
+{
+    width: 85%;
+    height: 100%;
+    border-radius: 13px;
+    position: relative;
+    top: -10%;
+    margin: 10px;
+}
+
+.b1
+{
+    position: relative;
+    left: 72%;
+    border: 2px solid orange;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.Signup-body
+{
+    height:1000px;
+}
+
+.signup-title
+{
+    position: absolute;
+    bottom: 100%;
+    left: 35%;
+    font-size: 35px;
+    font-family: 'Fredoka One', cursive;
+    color: orange;
+}
+
+.error
+{
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 44%;
+}

@@ -1,0 +1,40 @@
+.exp-header
+{
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    color: orange;
+}
+
+.webbrowse
+{
+    position: relative;
+    right: 10%;
+    padding: 5px;
+}
+
+.Webnews
+{
+    position: relative;
+    right: 17%;
+    padding: 5px;
+}
+
+.Find
+{
+    position: relative;
+    left: 10%;
+}
+
+.search-bar
+{
+    position: relative;
+    right: 150%;
+    width: 300px;
+    border: 5px solid orange;
+    border-radius: 25px;
+    height: 45px;
+}
+
+

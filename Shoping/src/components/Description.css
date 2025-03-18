@@ -1,0 +1,127 @@
+.wholepage
+{
+    color: white;
+    height: 600px;
+    display: flex;
+}
+
+.part1
+{
+    display: grid;
+    width: 850px;
+}
+.back
+{ 
+    
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ45wGjasAvJmQadtXUEebHf2Hq2ZT3PwtrxRNYMroLi1n1bMcwCNPu6I_bcICl3rOCxfI&usqp=CAU");
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 500%;
+    position: relative;
+    top: 6%;
+    height: 500px;
+    left:19%;
+    
+}
+.back:hover
+{
+    cursor: pointer; 
+    box-shadow: 0 8px 10px white;
+    transition: box-shadow 0.3s ease;
+    transform: translateY(-3px); 
+}
+.back11
+{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmOepZsSbEYU_SXpoLTDLMwR9JaJ4vPE6E2RHMsy6TuPqP5upQO-dtF1o4Ie1OBrxk7-A&usqp=CAU");
+    background-size:cover;
+    border: 2px solid white;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    left: 15%;
+    position: relative;
+}
+.back11:hover
+{
+    cursor: pointer; 
+    box-shadow: 0px 8px 10px white;
+    transition: box-shadow 0.3s ease;
+    transform: translateY(-3px); 
+}
+.back111
+{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT_jwbTvzAARG1d9up4pLd5G6qk4GHtboFQQ&s");
+    background-size: cover;
+    border: 2px solid wheat;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    position: relative;
+    top: 48%;
+    left: 4%;
+}
+.back111:hover
+{
+    cursor: pointer; 
+    box-shadow: 0px 8px 10px white;
+    transition: box-shadow 0.3s ease;
+    transform: translateY(-3px); 
+}
+
+.compo
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.time
+{
+    display: grid;
+    width: 150px;
+}
+
+.timehead
+{
+    position: relative;
+    top: 11%;
+}
+.free
+{
+    display: grid;
+}
+.compo2
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.offline
+{
+    display: grid;
+    justify-content: space-evenly;
+    position: relative;
+    left: 6%;
+}
+.device
+{
+    display: grid;
+}
+.devicehead
+{
+    display: grid;
+    position: relative;
+    left: 26%;
+    width: 240px;
+}
+.logo1
+{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+.logo2
+{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 120%;
+}

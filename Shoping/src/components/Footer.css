@@ -1,0 +1,77 @@
+/* Footer.css */
+.Footer-Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1c1c1c; 
+    color: #fff; 
+    font-family: Arial, sans-serif;
+    border-top: 3px solid #ff6f61; 
+    position: absolute;
+    width: 101%;
+    top: 303%;
+}
+
+.Footer-Container div {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px; 
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ff6f61; 
+}
+
+li {
+    list-style: none;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+li:hover {
+    color: #ffcc00; 
+}
+
+.terms {
+    text-align: center;
+    padding: 10px;
+    background-color: #141414; 
+    border-top: 1px solid #333;
+}
+
+.terms .conditions {
+    font-size: 14px;
+    color: #aaa; 
+    position: absolute;
+    width: 100%;
+    top: 323%;
+}
+
+.browser-type, .Contact-mee, .Animeverse-policies, .Your-account {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navigation-links li,
+.contact li,
+.Animeverse li,
+.Account li {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .Footer-Container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Footer-Container div {
+        margin-bottom: 20px;
+    }
+}
+

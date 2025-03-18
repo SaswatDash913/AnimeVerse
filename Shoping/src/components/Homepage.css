@@ -1,0 +1,131 @@
+.maindivp {
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    background-image: url('https://e0.pxfuel.com/wallpapers/907/785/desktop-wallpaper-18-colourful-anime-colorful-anime-girl.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(50%);
+    overflow: hidden;
+    position: relative;
+}
+
+.maindivp::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+.writing
+{
+    position: absolute;
+    width: 34%;
+    top: 17%;
+    margin: 24Px;
+    height: 272px;
+    right: 56%;
+}
+
+.h11
+{
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    margin: 30px;
+    position: relative;
+    right: 2%;
+}
+
+.btn1
+{
+    color: white;
+    background: orange;
+    position: relative;
+    left: 16%;
+    bottom: 7%;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    padding: 7px;
+    border-radius: 10px;
+    bottom: 2%;
+    left: 30%;
+    transition: all 0.3s ease; 
+}
+
+.btn1:hover
+{
+    background-color: yellow;
+    cursor: pointer; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+    transform: translateY(-3px); 
+}
+
+.text
+{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 4%;
+    top: 80%;
+    width: 450px;
+}
+
+.premium
+{
+    width: 500px;
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    font-size: 38px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 30px;
+}
+.page
+{
+    position: absolute;
+    top: 153%;
+}
+.wholepage
+{
+    position: absolute;
+    top: 72%;
+    right: 0%;
+}
+
+.Homepage-image-add-inner
+{
+    width: 86%;
+    border: 2px solid orange;
+    height: 85%;
+    position: relative;
+    left: 7%;
+    top: 0%;
+    background-image:url("https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=2700/CurationAssets/Dragon%20Ball%20DAIMA/SEASON%201/MARKETING%20BANNER/DragonBallDaima-S1C1-KV1-Banner-2100x700-EN.png");
+    background-size:cover;
+}
+
+.Homepage-image-add
+{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 228%;
+}
+
+.homepage-total-page
+{
+    height:2500px;   
+    background-image: linear-gradient(#000000 70% , #2c3746)
+}
