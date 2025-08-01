@@ -1,17 +1,16 @@
+import { useState, useEffect } from "react";
 import axios from "axios";
-import { useEffect, useState } from "react";
 
 const useAction = () => {
   const [ActionData, setActionData] = useState([]);
-  const baseURL = import.meta.env.DEV ? '' : import.meta.env.VITE_API_URL;
 
   useEffect(() => {
-    axios.get(`${baseURL}/api/action`)
+    axios.get(`${import.meta.env.VITE_API_URL}/api/action`)
       .then((response) => {
         setActionData(response.data);
       })
       .catch((error) => {
-        console.log(error);
+        console.log("Fetch error:", error);
       });
   }, []);
 

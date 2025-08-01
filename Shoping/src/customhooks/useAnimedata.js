@@ -3,15 +3,14 @@ import axios from "axios";
 
 const useAnimedata = () => {
   const [Data, setData] = useState([]);
-  const baseURL = import.meta.env.DEV ? '' : import.meta.env.VITE_API_URL;
 
   useEffect(() => {
-    axios.get(`${baseURL}/api/display`)
+    axios.get(`${import.meta.env.VITE_API_URL}/api/display`)
       .then((response) => {
         setData(response.data);
       })
       .catch((error) => {
-        console.log(error);
+        console.log("Fetch error:", error);
       });
   }, []);
 
