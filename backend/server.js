@@ -1,6 +1,11 @@
 import express from 'express'
-
+import cors from 'cors'
 const app = express();
+
+app.use(cors({
+  origin: 'https://animeverse-frontend-r2ar.onrender.com',
+  credentials: true
+}));
 
 app.get('/api/display',(req,res)=>{
     const display = [
