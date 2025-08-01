@@ -1,59 +1,110 @@
-.maindivv
-{
-    border: 2px solid white;
-    width: 400px;
-    height: 250px;
-    position: absolute;
-    top: 35%;
-    left: 35%;
-    display: grid;
+.the-login-total {
+    display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
+    min-height: 100vh;
+    background: #111;
 }
 
-.the-login-total
-{
-    height:1000px;
+.maindivv {
+    background-color: #1c1c1c;
+    padding: 30px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
-.lgin{
+
+.lgin h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #ff5722;
+    margin-bottom: 20px;
+}
+
+.usern, .passs {
+    margin-bottom: 15px;
+}
+
+.inp1, .imp1 {
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    padding: 0 15px;
+    background-color: #333;
     color: white;
-    position: relative;
-    left: 30%;
-    bottom: 170%;
-    width: 42px;
+    border: 1px solid #ff5722;
+    font-size: 16px;
+    transition: all 0.3s ease;
 }
 
-.usern
-{
-    position: relative;
-    bottom: 59%;
+.inp1:focus, .imp1:focus {
+    outline: none;
+    border-color: #ff5722;
+    box-shadow: 0 0 8px rgba(255, 87, 34, 0.8);
 }
 
-.passs
-{
-    position: relative;
-    height: 38px;
-    bottom: 10%;
+.btn2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
-.bn2{
-    border: 2px solid grey;
-    position: relative;
-    top: 65%;
+.bn {
+    width: 100%;
+    height: 45px;
+    background-color: #ff5722;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
-.bn
-{
-    color: grey;
-    position: relative;
-    left: 0%;
-    width: 176px;
+.bn:hover {
+    background-color: #e64a19;
 }
 
-.sign1
-{
-    color:orange;
-    font-size: 24px;    
-    font-weight: bold;  
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+.Sign {
+    text-align: center;
+}
+
+.bn1 {
+    width: 100%;
+    height: 45px;
+    background-color: #555;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.bn1:hover {
+    background-color: #888;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media (max-width: 480px) {
+    .maindivv {
+        padding: 20px;
+        width: 90%;
+    }
+
+    .lgin h1 {
+        font-size: 28px;
+    }
+
+    .inp1, .imp1, .bn, .bn1 {
+        height: 40px;
+        font-size: 14px;
+    }
 }

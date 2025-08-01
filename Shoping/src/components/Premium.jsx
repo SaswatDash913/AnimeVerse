@@ -54,7 +54,7 @@ const Premium = () =>{
                     <li className="list21">Stream on 4 device at a time</li>
                     <li className='list22'>Offline Viewing</li>
                     <li className='list23'>Access Crunchyroll Game Vault, a catalog of free games</li>
-                    <li className='list24'>16% discount on Monthly Plan (billed every 12-months)</li>
+                    <li className='list24'>16% discount on Monthly Plan </li>
                 </div>
             </div>
             <div className='descr'>

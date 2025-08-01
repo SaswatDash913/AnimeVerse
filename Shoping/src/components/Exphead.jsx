@@ -35,10 +35,8 @@ function Exphead () {
                 <h2 className='webname1' onClick={HandleTransfer}>AnimeVerse</h2>
             </div>
             <div className='webbrowse'>
-                <button className='browse'>Browse</button>
             </div>
             <div className='Webnews'>
-                <button className='News'>News</button>
             </div>
             <div className='Find'>
                 <button className='search-web' onClick={()=>{setSearchState(!SearchState)}}>Search</button>

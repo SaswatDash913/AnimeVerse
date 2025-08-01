@@ -33,16 +33,13 @@ body
     flex-shrink: 0;
     position: relative;
     filter: brightness(75%);
-
 }
-
-
 @keyframes carousel-animation {
     0% {
         transform: translateX(0);
     }
     20% {
-        transform: translateX(0);
+        transfor: translateX(0);
     }
     30% {
         transform: translateX(-100%);

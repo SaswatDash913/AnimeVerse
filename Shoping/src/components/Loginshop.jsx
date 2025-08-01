@@ -46,9 +46,6 @@ function Loginshop() {
           <div className='btn2'>
             <button className="bn" onClick={handleLogin}>Submit</button>
           </div>
-          <div className='Sign'>
-            <button className='bn1'onClick={handleup}>NEW USER</button>
-         </div>
        </div>
      </div>
   );

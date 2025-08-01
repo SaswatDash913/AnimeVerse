@@ -54,6 +54,8 @@ li:hover {
 .browser-type1, .Contact-mee1, .Animeverse-policies1, .Your-account1 {
     text-transform: uppercase;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
 
 .navigation-links1 li,

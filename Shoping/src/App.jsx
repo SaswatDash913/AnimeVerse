@@ -1,5 +1,5 @@
 import React from 'react'
-import Homepage from './components/homepage'
+import Homepage from './components/Homepage'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Loginshop from './components/Loginshop'
 import { Provider } from 'react-redux'

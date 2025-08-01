@@ -26,8 +26,8 @@
 
 .inner-card-action:hover 
 {
-    transform: scale(1.1) translateY(-10px); /* Pop-out effect */
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+    transform: scale(1.1) translateY(-10px); 
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); 
 }
 .next-image-btn
 {

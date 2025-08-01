@@ -46,11 +46,8 @@ app.get('/api/display',(req,res)=>{
             video:"https://www.youtube.com/embed/-G9BqkgZXRA?si=jvFGsZ3VygOmmNMD"
         }
     ];
-
     res.send(display);
 })
-
-
 
 app.get('/api/propage',(req,res)=>{
     const propage = [

@@ -28,7 +28,6 @@ const TotSlice = createSlice({
     Loginn: (state, action) => {
       const { user, pass } = action.payload;
       let foundUser = null
-      console.log("Logging in with", { user, pass })
       for (let i = 0; i < state.data.length; i++) {
         const item = state.data[i];
         if (item.username === user && item.password === pass) {
@@ -36,7 +35,6 @@ const TotSlice = createSlice({
           break;
         }
       }
-      console.log("Found User:", foundUser);
       state.logined = !!foundUser;
       if (foundUser) {
         alert('Logged in successfully');

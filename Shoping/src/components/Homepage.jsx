@@ -6,7 +6,6 @@ import Description from "./Description";
 import Footer from "./Footer";
 function Homepage()
 {
-
     return (
         <div className="homepage-total-page">
         <Header1 />
@@ -28,4 +27,4 @@ function Homepage()
     )
 }
 
-export default  Homepage
+export default Homepage
