@@ -38,3 +38,45 @@
 }
 
 
+@media (max-width: 1024px) {
+    .exp-header {
+        flex-wrap: wrap;
+        height: auto;
+        gap: 1rem;
+        justify-content: center;
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    .webbrowse,
+    .Webnews,
+    .Find {
+        position: static;
+        padding: 5px;
+    }
+
+    .search-bar {
+        position: static;
+        width: 80%;
+        max-width: 300px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .search-bar {
+        width: 90%;
+        border-width: 3px;
+        height: 40px;
+    }
+
+    .webbrowse,
+    .Webnews,
+    .Find {
+        font-size: 0.9rem;
+    }
+
+    .exp-header {
+        flex-direction: column;
+    }
+}

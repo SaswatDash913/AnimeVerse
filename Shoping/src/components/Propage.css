@@ -35,3 +35,63 @@
 {
     height:1000px;
 }
+
+@media (max-width: 1024px) {
+    .know {
+        width: 80%;
+        bottom: 40%;
+        margin: 0 auto;
+    }
+
+    .wish {
+        left: 60%;
+        bottom: 120%;
+    }
+
+    .know-image {
+        height: 500px;
+    }
+
+    .Product-anime-totalpage {
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .know {
+        width: 90%;
+        bottom: 20%;
+        text-align: center;
+    }
+
+    .wish {
+        width: 150px;
+        height: 45px;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 100%;
+    }
+
+    .know-image {
+        height: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .know {
+        width: 95%;
+        bottom: 10%;
+        font-size: 14px;
+    }
+
+    .wish {
+        width: 140px;
+        height: 40px;
+        font-size: 14px;
+        bottom: 90%;
+    }
+
+    .know-image {
+        height: 300px;
+    }
+}

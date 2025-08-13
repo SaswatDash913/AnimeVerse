@@ -36,3 +36,55 @@
 {
     height:1000px;
 }
+
+
+
+@media (max-width: 1024px) {
+    .inner-wish-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .wishhai,
+    .remove {
+        position: static;
+        margin: 10px 0;
+    }
+
+    .wish-image {
+        width: 180px;
+        height: auto;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .wishhai {
+        font-size: 24px;
+    }
+
+    .remove {
+        font-size: 18px;
+    }
+
+    .wish-image {
+        width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .wishhai {
+        font-size: 20px;
+    }
+
+    .remove {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+
+    .wish-image {
+        width: 120px;
+    }
+}

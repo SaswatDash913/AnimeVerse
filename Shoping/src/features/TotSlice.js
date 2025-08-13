@@ -1,6 +1,5 @@
 import { createSlice, nanoid } from '@reduxjs/toolkit';
 
-
 const initialState = {
   data: [],
   PaymentAmount:null,
@@ -8,8 +7,10 @@ const initialState = {
   logined: false,
   Wish:[],
   Movies:[], 
-  PassToken:false, 
+  PassToken:false,
+  lastLoginSuccess: null,
 };
+
 
 const TotSlice = createSlice({
   name: 'cart',
@@ -36,11 +37,7 @@ const TotSlice = createSlice({
         }
       }
       state.logined = !!foundUser;
-      if (foundUser) {
-        alert('Logged in successfully');
-      } else {
-        alert('Please sign up');
-      }
+      state.lastLoginSuccess = !!foundUser; 
     },
     addPayment:(state,action) =>
     {

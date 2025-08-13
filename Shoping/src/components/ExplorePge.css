@@ -129,3 +129,76 @@ body
     background-image:url("https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=2700/CurationAssets/Arifureta:%20From%20Commonplace%20to%20World's%20Strongest/SEASON%203/MARKETING%20BANNER/Arifureta-S3C1-KV0-Banner-2100x700-EN.png");
     background-size:cover;
 }
+
+
+@media (max-width: 1024px) {
+    .exppage-total-page {
+        height: auto; 
+    }
+
+    .carausel {
+        height: 300px;
+    }
+
+    .heading-item,
+    .item-descript {
+        width: 90%;
+        font-size: 20px;
+        left: 5%;
+    }
+
+    .heading-item {
+        font-size: 28px;
+        bottom: 60%;
+    }
+
+    .item-descript {
+        font-size: 14px;
+        bottom: 15%;
+    }
+
+    .heavy,
+    .heavytop {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .heavy1,
+    .heavy1top {
+        width: 90%;
+        height: 300px;
+        left: 5%;
+        top: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .carausel {
+        height: 250px;
+    }
+
+    .heading-item {
+        font-size: 20px;
+        bottom: 65%;
+    }
+
+    .item-descript {
+        font-size: 12px;
+        bottom: 10%;
+    }
+
+    .heavy1,
+    .heavy1top {
+        height: 200px;
+    }
+
+    .heavy {
+        top: auto;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .heavytop {
+        top: auto;
+    }
+}

@@ -69,3 +69,50 @@
     font-family: 'Poppins', sans-serif;
     color:white;
 }
+
+@media (max-width: 768px) {
+  .mainoneb {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    top: 250%;
+  }
+
+  .Action-carausal {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+
+  .inner-card-action {
+    flex: 0 0 auto;
+    min-width: 250px;
+  }
+
+  .next-image-btn,
+  .prev-image-btn1 {
+    position: static;
+    width: 20px;
+    height: 50px;
+    margin: 10px;
+  }
+
+  .header-head {
+    font-size: 24px;
+    top: 2%;
+  }
+}
+
+@media (max-width: 480px) {
+  .inner-card-action {
+    min-width: 200px;
+  }
+
+  .header-head {
+    font-size: 20px;
+  }
+
+  .mainoneb {
+    top: 270%;
+  }
+}

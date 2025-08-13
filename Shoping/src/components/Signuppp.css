@@ -1,112 +1,98 @@
-.flexing {
+.Signup-body {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #111;
+}
+
+.flexing {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .mainSignup {
-    color: orange;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    width: 380px;
-    height: 350px;
-    border: 5px solid orange;
-    border-radius: 15px;
-    position: absolute;
-    top: 25%;
-    z-index: 2;
-    backdrop-filter: blur(8px);
-    background-color: black;
+    background-color: #1c1c1c;
     padding: 30px;
-    box-shadow: 0 8px 20px rgba(255, 165, 0, 0.2);
+    border-radius: 15px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
-.user1,
-.pass1 {
-    width: 100%;
-    margin: 10px 0;
+.signup-title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #ff5722;
+    margin-bottom: 20px;
 }
 
-.inp1,
-.imp1 {
+.user1, .pass1 {
+    margin-bottom: 15px;
+}
+
+.inp1, .imp1 {
     width: 100%;
-    height: 40px;
-    border-radius: 13px;
-    margin: 5px 0;
-    padding-left: 15px;
-    font-size: 16px;
-    border: 1px solid orange;
-    background-color: #111;
+    height: 45px;
+    border-radius: 10px;
+    padding: 0 15px;
+    background-color: #333;
     color: white;
+    border: 1px solid #ff5722;
+    font-size: 16px;
+    transition: all 0.3s ease;
 }
 
-.inp1:focus,
-.imp1:focus {
+.inp1:focus, .imp1:focus {
     outline: none;
-    box-shadow: 0 0 8px orange;
+    border-color: #ff5722;
+    box-shadow: 0 0 8px rgba(255, 87, 34, 0.8);
+}
+
+.bm1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 .b1 {
     width: 100%;
-    height: 40px;
-    border: 2px solid orange;
+    height: 45px;
+    background-color: #ff5722;
+    border: none;
     border-radius: 10px;
-    background-color: black;
-    color: orange;
+    color: white;
     font-size: 16px;
-    font-weight: bold;
-    transition: 0.3s;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .b1:hover {
-    background-color: orange;
-    color: black;
-}
-
-.Signup-body {
-    height: 100vh;
-    background-color: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.signup-title {
-    position: relative;
-    font-size: 35px;
-    font-family: 'Fredoka One', cursive;
-    color: orange;
-    text-align: center;
-    margin-bottom: 30px;
+    background-color: #e64a19;
 }
 
 .error {
-    color: white;
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(255, 0, 0, 0.2);
-    padding: 8px 20px;
-    border-radius: 6px;
-    font-size: 14px;
+    color: red;
     text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .mainSignup {
-        width: 90%;
         padding: 20px;
+        width: 90%;
     }
 
     .signup-title {
         font-size: 28px;
     }
 
-    .b1 {
-        width: 100%;
+    .inp1, .imp1, .b1 {
         height: 40px;
+        font-size: 14px;
     }
 }

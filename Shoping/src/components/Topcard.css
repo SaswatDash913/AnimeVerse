@@ -15,6 +15,43 @@
 }
 
 .card-slider:hover {
-    transform: scale(1.1) translateY(-10px); /* Pop-out effect */
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+    transform: scale(1.1) translateY(-10px); 
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 1024px) {
+    .inner-card {
+        flex-wrap: wrap;
+        justify-content: center;
+        top: 72%;
+    }
+
+    .card-slider {
+        margin: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .inner-card {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        top: 75%;
+    }
+
+    .card-slider {
+        width: 80%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .inner-card {
+        top: 80%;
+    }
+
+    .card-slider {
+        width: 90%;
+        margin: 8px 0;
+    }
 }

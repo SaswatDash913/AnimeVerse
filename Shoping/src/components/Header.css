@@ -41,3 +41,46 @@
     font-weight: bold;  
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
+@media (max-width: 1024px) {
+    .maind {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        padding: 10px 0;
+        gap: 10px;
+    }
+
+    .btttn,
+    .exph,
+    .Name {
+        position: static;
+        margin: 5px 0;
+    }
+
+    .exph {
+        border-width: 3px;
+    }
+
+    .webname {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .maind {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btttn,
+    .exph,
+    .Name {
+        width: 90%;
+        text-align: center;
+    }
+
+    .webname {
+        font-size: 18px;
+    }
+}

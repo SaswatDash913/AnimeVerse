@@ -66,3 +66,68 @@
     top: 341%;
     left: 1%;
 }
+@media (max-width: 1024px) {
+    .card-toppicks-cara {
+        flex-wrap: wrap;
+        justify-content: center;
+        top: 355%;
+    }
+
+    .inner-top-picks {
+        width: 80%;
+    }
+
+    .prev-button-toppick,
+    .next-button-toppick {
+        top: 370%;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-toppicks-cara {
+        flex-direction: column;
+        align-items: center;
+        top: 370%;
+    }
+
+    .inner-top-picks {
+        width: 90%;
+    }
+
+    .imgagestop {
+        height: auto;
+    }
+
+    .prev-button-toppick {
+        left: 5%;
+        top: 375%;
+    }
+
+    .next-button-toppick {
+        left: 85%;
+        top: 375%;
+    }
+
+    .header-top-picks {
+        top: 335%;
+    }
+}
+
+@media (max-width: 480px) {
+    .inner-top-picks {
+        width: 95%;
+    }
+
+    .prev-button-toppick,
+    .next-button-toppick {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+        top: 380%;
+    }
+
+    .header-top-picks {
+        font-size: 20px;
+        top: 330%;
+    }
+}

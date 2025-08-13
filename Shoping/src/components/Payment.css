@@ -126,3 +126,83 @@
 {
     height:1000px;
 }
+
+@media (max-width: 1024px) {
+    .pay {
+        width: 90%;
+        left: 5%;
+        top: 10%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .Cred,
+    .Upi-button,
+    .cardnum {
+        width: 100%;
+    }
+
+    .button-payment {
+        left: auto;
+        right: 5%;
+        bottom: auto;
+        top: 10px;
+    }
+
+    .names {
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+
+    .cred2 {
+        flex-direction: column;
+        gap: 10px;
+        bottom: 0;
+    }
+
+    .codes {
+        flex-direction: column;
+        gap: 10px;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .pay {
+        width: 95%;
+        left: 2.5%;
+        padding: 15px;
+    }
+
+    .Cred,
+    .Upi-button,
+    .cardnum,
+    .button-payment {
+        width: 100%;
+    }
+
+    .packname,
+    .UPIP {
+        font-size: 14px;
+        height: 45px;
+    }
+
+    .disclam {
+        font-size: 9px;
+        top: 5%;
+        text-align: center;
+    }
+
+    .button-payment {
+        height: 36px;
+        font-size: 14px;
+        top: 15px;
+        left: auto;
+        right: 5%;
+    }
+
+    .names {
+        font-size: 16px;
+    }
+}
